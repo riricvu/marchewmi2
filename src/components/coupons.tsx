@@ -6,7 +6,7 @@ const Coupons = () => {
         <div className="mt-10 pb-10 bg-[#FFFF] border-8 border-secondary rounded-lg">
              
             <h1 className="pt-8 text-3xl font-bold text-secondary">Love Coupons </h1>
-            <h2 className="text-txt-color">These are coupons you can redeem, babe. redeemable 3 each</h2>
+            <h2 className="text-txt-color">These are coupons you can redeem, babe. redeemable 3 each. Screenshot mo lang and sent it to me.</h2>
             <div className="flex flex-wrap justify-center gap-3">
                 <CouponTicket 
                 title={"Reedem this coupon for:"} 
