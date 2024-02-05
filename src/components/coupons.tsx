@@ -1,4 +1,4 @@
-import Gif1 from '../images/love-cute.gif'
+
 import CouponTicket from './couponticket';
 
 const Coupons = () => {

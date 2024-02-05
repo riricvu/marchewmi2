@@ -1,7 +1,7 @@
-import React, { useState, ChangeEvent } from 'react';
+import { useState, ChangeEvent } from 'react';
 import { useNavigate } from 'react-router-dom';
 import loginImg from './images/loginImg.png';
-import HomePage from './components/homePage';
+
 
 const LoginPage = () => {
   const navigate = useNavigate();

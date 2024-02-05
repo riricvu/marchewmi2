@@ -1,6 +1,5 @@
-import React, { useState } from 'react';
-import html2canvas from 'html2canvas';
-import { MdDownload } from 'react-icons/md';
+
+
 
 interface CouponProps {
   title: string;

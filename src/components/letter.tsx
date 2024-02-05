@@ -1,17 +1,9 @@
 import Cat1 from '../images/bunny-cute.gif'
 import Cat2 from '../images/bubududu-panda.gif'
-import Cat3 from '../images/cat-kitty.gif'
+
 
 const Letter = () => {
 
-    const SendButton = () => (
-        <button
-          type='button'
-          className="text-[#FFFF] bg-secondary right-2 py-2 px-4 rounded-lg text-md mt-6"
-        >
-         Send
-        </button>
-      );
 
     return ( 
         <div className="mt-10">
