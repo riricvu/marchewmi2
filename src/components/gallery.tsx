@@ -9,17 +9,17 @@ import Pic5 from '../images/7.jpg'
 import Pic6 from '../images/8.jpg'
 import Pic7 from '../images/9.jpg'
 import Pic11 from '../images/11.jpg'
-
-
-
-
-
-
-
+import BackButton from './backButton';
 
 const Gallery = () => {
   return (
+    <div className='mb-3'>
+      <div className="flex justify-start mb-4">
+           <BackButton/>
+          </div>
+   
     <div className="border-8 border-secondary bg-[#FFFF]">
+      
       <div className=" p-6 flex justify-between items-center rounded-lg w-auto h-auto ">
         <div className="w-auto bg-secondary flex rounded-md justify-center items-center border-8 border-primary">
           <img
@@ -53,6 +53,7 @@ const Gallery = () => {
                 <GalleryImg imgSrc={Pic11} />
             </div>
         </div>
+    </div>
     </div>
   );
 };

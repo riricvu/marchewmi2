@@ -1,12 +1,20 @@
 import Cat1 from '../images/bunny-cute.gif'
 import Cat2 from '../images/bubududu-panda.gif'
+import BackButton from './backButton';
 
 
 const Letter = () => {
 
+  
 
     return ( 
-        <div className="mt-10">
+        <div className="">
+          <div className="flex justify-start mb-4">
+           <BackButton/>
+          </div>
+          
+          
+          
              <div className="bg-[#FFFF] flex flex-col justify-start items-center rounded-lg w-auto h-auto relative
               border-8 border-secondary">
               

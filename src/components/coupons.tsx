@@ -1,9 +1,14 @@
-
+import BackButton from './backButton';
 import CouponTicket from './couponticket';
 
 const Coupons = () => {
     return ( 
+        <div className='mb-3'>
+            <div className="flex justify-start mb-4">
+           <BackButton/>
+          </div>
         <div className="mt-10 pb-10 bg-[#FFFF] border-8 border-secondary rounded-lg">
+            
              
             <h1 className="pt-8 text-3xl font-bold text-secondary">Love Coupons </h1>
             <h2 className="text-txt-color">These are coupons you can redeem, babe. redeemable 3 each. Screenshot mo lang and sent it to me.</h2>
@@ -41,6 +46,7 @@ const Coupons = () => {
             </div>
             
         </div>
+    </div>
      );
 }
  

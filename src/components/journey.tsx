@@ -5,11 +5,15 @@ import CatGif from '../images/cat.gif';
 import CatGif2 from '../images/happi.gif';
 import CatGif3 from '../images/cat1.gif';
 import CatGif4 from '../images/cat-catpeek.gif';
+import BackButton from './backButton';
 
 const Journey = () => {
     return (  
-        <div className="bg-primary mt-10">
-            <div className="mt-10 bg">
+        <div className="bg-primary">
+            <div className="flex justify-start mb-4">
+           <BackButton/>
+          </div>
+            <div className="mt-3 bg">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
                     <div className="md:col-span-1 flex justify-center items-center">
                         <img src={letterImg} alt="Image 1" />
